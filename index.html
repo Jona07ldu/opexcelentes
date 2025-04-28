@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Óptica Excelentes - Compra lentes, gafas y lentes de contacto online. Encuentra las mejores ofertas y disfruta de una experiencia de compra única.">
-    <title>Óptica Excelentes</title>
+    <meta name="description" content="Ã“ptica Excelentes - Compra lentes, gafas y lentes de contacto online. Encuentra las mejores ofertas y disfruta de una experiencia de compra Ãºnica.">
+    <title>Ã“ptica Excelentes</title>
 
     <style>
         /* Reset general */
@@ -68,13 +68,13 @@
             background-color: #e64a19;
         }
 
-        /* Sección de productos */
+        /* SecciÃ³n de productos */
         .products-section {
             display: flex;
             justify-content: space-between;
             padding: 50px 15px;
             flex-wrap: wrap;
-            gap: 20px; /* Separación entre los productos */
+            gap: 20px; /* SeparaciÃ³n entre los productos */
         }
 
         .product-card {
@@ -113,7 +113,7 @@
             cursor: pointer;
             border-radius: 5px;
             transition: background-color 0.3s ease;
-            margin-bottom: 10px; /* Separación entre botones */
+            margin-bottom: 10px; /* SeparaciÃ³n entre botones */
         }
 
         .product-card button:hover {
@@ -237,7 +237,7 @@
             background-color: #0b3e7b;
         }
 
-        /* Botón Cerrar */
+        /* BotÃ³n Cerrar */
         .close-cart {
             position: absolute;
             top: 10px;
@@ -253,7 +253,7 @@
 
     <!-- Header -->
     <header>
-        <h1>Óptica Excelentes</h1>
+        <h1>Ã“ptica Excelentes</h1>
         <p>Encuentra tus lentes ideales, con estilo y confort</p>
     </header>
 
@@ -262,14 +262,14 @@
         <div class="cta">Compra Ahora</div>
     </div>
 
-    <!-- Sección de productos -->
+    <!-- SecciÃ³n de productos -->
     <section class="products-section">
         <!-- Producto 1 -->
         <div class="product-card" id="product1">
             <img src="https://via.placeholder.com/300x200" alt="Lentes de Sol">
             <h3>Lentes de Sol</h3>
             <p>$45.00</p>
-            <button onclick="addToCart('Lentes de Sol', 45)">Añadir al carrito</button>
+            <button onclick="addToCart('Lentes de Sol', 45)">AÃ±adir al carrito</button>
             <button onclick="payNow(45)">Comprar con PayPhone</button>
         </div>
         
@@ -278,7 +278,7 @@
             <img src="https://via.placeholder.com/300x200" alt="Lentes de Vista">
             <h3>Lentes de Vista</h3>
             <p>$55.00</p>
-            <button onclick="addToCart('Lentes de Vista', 55)">Añadir al carrito</button>
+            <button onclick="addToCart('Lentes de Vista', 55)">AÃ±adir al carrito</button>
             <button onclick="payNow(55)">Comprar con PayPhone</button>
         </div>
         
@@ -287,7 +287,7 @@
             <img src="https://via.placeholder.com/300x200" alt="Lentes de Contacto">
             <h3>Lentes de Contacto</h3>
             <p>$30.00</p>
-            <button onclick="addToCart('Lentes de Contacto', 30)">Añadir al carrito</button>
+            <button onclick="addToCart('Lentes de Contacto', 30)">AÃ±adir al carrito</button>
             <button onclick="payNow(30)">Comprar con PayPhone</button>
         </div>
     </section>
@@ -295,7 +295,7 @@
     <!-- Cart Modal -->
     <div class="cart-modal" id="cartModal">
         <div class="cart-content">
-            <span class="close-cart" onclick="toggleCart()">×</span>
+            <span class="close-cart" onclick="toggleCart()">Ã—</span>
             <h2>Carrito de Compras</h2>
             <div class="cart-items" id="cartItems"></div>
             <div class="cart-total" id="cartTotal">Total: $0.00</div>
@@ -303,16 +303,16 @@
         </div>
     </div>
 
-    <!-- Botón de Carrito -->
+    <!-- BotÃ³n de Carrito -->
     <div class="cart" onclick="toggleCart()">??</div>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Óptica Excelentes. Todos los derechos reservados. | <a href="#">Términos y Condiciones</a> | <a href="#">Política de Privacidad</a></p>
+        <p>&copy; 2025 Ã“ptica Excelentes. Todos los derechos reservados. | <a href="#">TÃ©rminos y Condiciones</a> | <a href="#">PolÃ­tica de Privacidad</a></p>
     </footer>
 
     <script>
-        // Función para añadir al carrito
+        // FunciÃ³n para aÃ±adir al carrito
         let cart = [];
         let total = 0;
 
